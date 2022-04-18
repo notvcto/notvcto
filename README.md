@@ -11,7 +11,7 @@
 
 # My stats
 
-[![vctrsm's GitHub stats](https://github-readme-stats.vercel.app/api?username=vctrsm)](https://github.com/vctrsm)
+[![vctrsm's GitHub stats](https://github-readme-stats.vercel.app/api?username=vctrsm&show_icons=true&theme=dark)](https://github.com/vctrsm)
 
 <!---
 N0xDev/N0xDev is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
