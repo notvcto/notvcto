@@ -7,7 +7,7 @@
 
 ### You can support me on Ko-fi, it means a lot!
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J1BZU1Q)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/)
 
 # My stats
 
