@@ -13,7 +13,7 @@
 
 ---
 
-### 🔧 Currently Building
+## 🔧 Currently Building
 
 - 🐚 **[VSH](https://github.com/notvcto/VSH)** — A human-first shell: speak or type, it listens.
 - 🦀 **[thorn](https://github.com/notvcto/thorn-bootstrap)** — A self-hosted language written in itself, with Result types and memory magic.
@@ -21,7 +21,7 @@
 
 ---
 
-### 💻 Tech Stack
+## 💻 Tech Stack
 
 <h2>🧠 Languages</h2>
 <p align="left">
@@ -63,7 +63,7 @@
 
 ---
 
-### 📈 GitHub Stats
+## 📈 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=notvcto&show_icons=true&theme=tokyonight" width="47%">
@@ -75,7 +75,7 @@
 
 ---
 
-### 🏆 GitHub Trophies
+## 🏆 GitHub Trophies
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=notvcto&theme=tokyonight&margin-w=10" alt="notvcto trophies" />
@@ -83,7 +83,7 @@
 
 ---
 
-### 📫 Contact Me
+## 📫 Contact Me
 
 - 🌐 [notvc.to](https://notvc.to)
 - 💌 contact@notvc.to
