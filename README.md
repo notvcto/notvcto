@@ -16,16 +16,15 @@
 ### 🔧 Currently Building
 
 - 🐚 **[VSH](https://github.com/notvcto/VSH)** — A human-first shell: speak or type, it listens.
-- 🦀 **[thorn](https://github.com/notvcto/thorn)** — A self-hosted language written in itself, with Result types and memory magic.
-- 🧰 **[kernix](https://github.com/notvcto/kernix)** — My own Linux distro, minimalist and bare metal.
-- 🪴 **[grow-a-garden-tracker](https://github.com/notvcto/grow-a-garden-tracker)** — WebSocket-powered live inventory tracker.
+- 🦀 **[thorn](https://github.com/notvcto/thorn-bootstrap)** — A self-hosted language written in itself, with Result types and memory magic.
+- 🧰 **[kernix](https://github.com/notvcto/)** — My own Linux distro, minimalist and bare metal.
 
 ---
 
 ### 💻 Tech Stack
 
 <p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg" alt="rust" width="40" />
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/rust.svg" alt="rust" width="40" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" />
