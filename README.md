@@ -13,14 +13,6 @@
 
 ---
 
-## 🔧 Currently Building
-
-- 🐚 **[VSH](https://github.com/notvcto/VSH)** — A human-first shell: speak or type, it listens.
-- 🦀 **[thorn](https://github.com/notvcto/thorn-bootstrap)** — A self-hosted language written in itself, with Result types and memory magic.
-- 🧰 **[kernix](https://github.com/notvcto/)** — My own Linux distro, minimalist and bare metal.
-
----
-
 ## 💻 Tech Stack
 
 <h2>🧠 Languages</h2>
