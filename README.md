@@ -1,6 +1,6 @@
 <!-- GitHub Profile README | notvcto -->
 
-<h1 align="center">Hey 👋, I'm Vic (aka notvcto)</h1>
+<h1 align="center">Hey 👋, I'm Victor (aka notvcto)</h1>
 <h3 align="center">Building secure systems, shells, and languages with flair.</h3>
 
 <p align="center">💭 If you can talk, you can shell.</p>
