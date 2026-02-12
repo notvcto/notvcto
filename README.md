@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://vsh.dev">
-    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=30&duration=3000&pause=1000&color=7AA2F7&center=true&vCenter=true&width=500&lines=notvcto;Systems+Architect;Security+Researcher;Rustacean;Shellsmith" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=30&duration=3000&pause=1000&color=FB8C00&center=true&vCenter=true&width=500&lines=notvcto;Systems+Architect;Security+Researcher;Rustacean;Shellsmith" alt="Typing SVG" />
   </a>
   
   <p align="center">
