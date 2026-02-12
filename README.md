@@ -76,12 +76,7 @@
 ## 📊 The Data
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=notvcto&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=notvcto&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27" width="48%" />
-</div>
-<br/>
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=notvcto&theme=tokyonight&hide_border=true&background=1a1b27" width="98%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=notvcto&theme=highcontrast&hide_border=true&background=1a1b27" width="98%" />
 </div>
 
 ---
