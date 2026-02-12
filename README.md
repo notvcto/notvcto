@@ -1,91 +1,71 @@
-<!-- GitHub Profile README | notvcto -->
+<div align="center">
+  <a href="https://vsh.dev">
+    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=30&duration=3000&pause=1000&color=7AA2F7&center=true&vCenter=true&width=500&lines=notvcto;Systems+Architect;Security+Researcher;Rustacean;Shellsmith" alt="Typing SVG" />
+  </a>
+  
+  <p align="center">
+    <b>Building the bridge between human thought and machine execution.</b>
+  </p>
 
-<h1 align="center">Hey 👋, I'm Victor (aka notvcto)</h1>
-<h3 align="center">Building secure systems, shells, and languages with flair.</h3>
-
-<p align="center">💭 If you can talk, you can shell.</p>
-
----
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=notvcto&label=Profile%20views&color=0e75b6&style=flat" alt="notvcto profile views" />
-</p>
-
----
-
-## 💻 Tech Stack
-
-<h2>🧠 Languages</h2>
-<p align="left">
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/rust.svg" alt="rust" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" alt="bash" width="40" />
-</p>
-
-<h2>🎨 Frontend</h2>
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" />
-  <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vite/vite-original.svg" alt="vite" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" alt="tailwindcss" width="40" />
-</p>
-
-<h2>🧰 Backend & Databases</h2>
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" />
-  <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" />
-</p>
-
-<h2>🛠 Tools & Platforms</h2>
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="40" />
-  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Neovim-logo.svg" alt="neovim" width="40" />
-  <img src="https://img.shields.io/badge/WSL2-0e83cd?style=flat&logo=windows&logoColor=white" alt="wsl2" height="40" />
-  <img src="https://avatars.githubusercontent.com/u/67562267?s=200&v=4" alt="flyio" width="40" />
-</p>
-
+  <p align="center">
+    <a href="https://notvc.to">🌐 Website</a> •
+    <a href="#-contact">📫 Contact</a> •
+    <a href="https://github.com/notvcto/vsh">🚀 VSH</a>
+  </p>
+</div>
 
 ---
 
-## 📈 GitHub Stats
+## 🚀 The Magnum Opus
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=notvcto&show_icons=true&theme=tokyonight" width="47%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=notvcto&layout=compact&theme=tokyonight" width="47%">
-</p>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=notvcto&theme=tokyonight" alt="notvcto streak stats" />
-</p>
+### [VSH - Vic's Shell](https://github.com/notvcto/vsh)
+**A shell for everyone, built by everyone.** VSH challenges the status quo of the terminal by introducing **Cognitive Flexibility**. It separates intent from syntax, allowing you to speak to your computer in the way that fits *your* brain.
 
----
+> *"Simplicity is not the absence of complexity, but the mastery of it."*
 
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=notvcto&theme=tokyonight&margin-w=10" alt="notvcto trophies" />
-</p>
+| Terse (Power User) | Verbose (Beginner) | Named (Explicit) |
+| :--- | :--- | :--- |
+| `cp file.txt backup/` | `copy file.txt to backup/` | `copy source=file.txt dest=backup/` |
 
 ---
 
-## 📫 Contact Me
+## ⚡ The Arsenal
 
-- 🌐 [notvc.to](https://notvc.to)
-- 💌 contact@notvc.to
-- ☕ [Buy Me a Coffee](https://www.buymeacoffee.com/vcto)
+I specialize in **Rust** and **Systems Design**, with a strong background in full-stack web security.
+
+| Domain | Technologies |
+| :--- | :--- |
+| **🧠 Systems** | ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) ![Bash](https://img.shields.io/badge/GNU_Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white) |
+| **🎨 Frontend** | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) |
+| **🧰 Backend** | ![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white) |
+| **🏗 DevOps** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white) |
 
 ---
 
-### 🔖 Quote of the Shell
+## 🧪 Current Experiments
 
-> _“Simplicity is not the absence of complexity, but the mastery of it.”_
+- **[VSH](https://github.com/notvcto/vsh):** Rewriting the CLI experience in Rust. (Current focus)
+- **[VWH](https://github.com/notvcto/vwh):** A webhook tool for the modern web.
+- **Security Research:** Exploring vulnerability patterns in modern shell parsers.
 
 ---
 
+## 📊 The Data
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=notvcto&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=notvcto&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27" width="48%" />
+</div>
+<br/>
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=notvcto&theme=tokyonight&hide_border=true&background=1a1b27" width="98%" />
+</div>
+
+---
+
+<div align="center">
+  <p>
+    Use my tools? <a href="https://www.buymeacoffee.com/vcto">Buy me a coffee ☕</a><br/>
+    <i>"You know I can't stay static."</i>
+  </p>
+</div>
