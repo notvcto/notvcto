@@ -59,8 +59,6 @@
         <img src="https://skillicons.dev/icons?i=docker,git,linux,neovim&theme=dark" />
       </a>
       <br/><br/>
-      <img src="https://img.shields.io/badge/WSL2-0e83cd?style=flat-square&logo=windows&logoColor=white" height="35" />
-      <img src="https://img.shields.io/badge/Fly.io-24185B?style=flat-square&logo=flydotio&logoColor=white" height="35" />
     </td>
   </tr>
 </table>
