@@ -50,7 +50,7 @@
     <td width="50%" align="center" valign="top">
       <h3>🧰 Backend & Data</h3>
       <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=nodejs,nginx,sqlite,mongodb&theme=dark" />
+        <img src="https://skillicons.dev/icons?i=nodejs,nginx,sqlite,mongodb,supabase,sequelize&theme=dark" />
       </a>
     </td>
     <td width="50%" align="center" valign="top">
