@@ -9,7 +9,7 @@
 
   <p align="center">
     <a href="https://notvc.to">🌐 Website</a> •
-    <a href="#-contact">📫 Contact</a> •
+    <a href="contact@notvc.to">📫 Contact</a> •
     <a href="https://github.com/notvcto/vsh">🚀 VSH</a>
   </p>
 </div>
