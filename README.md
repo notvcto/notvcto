@@ -69,7 +69,7 @@
 
 - **[VSH](https://github.com/notvcto/vsh):** Rewriting the CLI experience in Rust. (Current focus)
 - **[VWH](https://github.com/notvcto/vwh):** *Victor Was Here* — A cryptographic proof-of-presence system for red team engagements. (Secondary focus)
-- **Security Research:** Exploring vulnerability patterns in modern shell parsers.
+- **Security Research:** Exploring vulnerability patterns in modern shell parsers
 
 ---
 
