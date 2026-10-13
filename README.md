@@ -1,46 +1,55 @@
 <div align="center">
-  <a href="https://vsh.dev">
-    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=30&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&lines=notvcto;Systems+Architect;Security+Researcher;Rustacean;Shellsmith" alt="Typing SVG" />
+  <a href="https://notvc.to">
+    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=30&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&lines=notvcto;Systems+Programmer;Security+Researcher;Rustacean" alt="Typing SVG" />
   </a>
-  
+
   <p align="center">
-    <b>Building the bridge between human thought and machine execution.</b>
+    Building a capability-based microkernel from scratch. Security researcher on the side.
   </p>
 
   <p align="center">
     <a href="https://notvc.to">🌐 Website</a> •
-    <a href="contact@notvc.to">📫 Contact</a> •
-    <a href="https://github.com/notvcto/vsh">🚀 VSH</a>
+    <a href="mailto:contact@notvc.to">📫 Contact</a>
   </p>
 </div>
 
 ---
 
-## 🚀 The Magnum Opus
+## Current Work
 
-### [VSH - Vic's Shell](https://github.com/notvcto/vsh)
-**A shell for everyone, built by everyone.** VSH challenges the status quo of the terminal by introducing **Cognitive Flexibility**. It separates intent from syntax, allowing you to speak to your computer in the way that fits *your* brain.
+### [Wolfram OS](https://github.com/notvcto/wolfram-os)
 
-> *"Simplicity is not the absence of complexity, but the mastery of it."*
+A capability-based microkernel written in Rust. No `fork()`. No ambient authority. Every process starts with an empty handle table and gets exactly what it's given.
 
-| Terse (Power User) | Verbose (Beginner) | Named (Explicit) |
-| :--- | :--- | :--- |
-| `cp file.txt backup/` | `copy file.txt to backup/` | `copy source=file.txt dest=backup/` |
+Runs on RISC-V and x86-64. Boots on real hardware.
+
+| What's in | What's next |
+| :--- | :--- |
+| Buddy allocator + VMO subsystem | Async IPC channels |
+| Sv39 + PML4 paging (dual-arch) | FastCall thread donation |
+| Job → Process → Thread hierarchy | musl libc port |
+| Assembly context switching | Ferrum userspace foundation |
 
 ---
 
-## ⚡ The Arsenal
+## Also shipping
+
+**[VWH](https://github.com/notvcto/vwh)** — cryptographic proof-of-presence for red team engagements. Ed25519 signatures, BLAKE3 note hashes, GPG-signed registry. "Valid" and "trustworthy" are not synonyms. VWH is built around that distinction.
+
+---
+
+## Stack
 
 <table border="0">
   <tr>
     <td width="50%" align="center" valign="top">
-      <h3>🧠 Languages</h3>
+      <h3>Languages</h3>
       <a href="https://skillicons.dev">
         <img src="https://skillicons.dev/icons?i=rust,c,py,js,ts,bash&theme=dark" />
       </a>
     </td>
     <td width="50%" align="center" valign="top">
-      <h3>🎨 Frontend</h3>
+      <h3>Frontend</h3>
       <a href="https://skillicons.dev">
         <img src="https://skillicons.dev/icons?i=react,nextjs,vite,html,css,tailwind&theme=dark" />
       </a>
@@ -48,32 +57,21 @@
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
-      <h3>🧰 Backend & Data</h3>
+      <h3>Backend & Data</h3>
       <a href="https://skillicons.dev">
         <img src="https://skillicons.dev/icons?i=nodejs,nginx,sqlite,mongodb,supabase,sequelize&theme=dark" />
       </a>
     </td>
     <td width="50%" align="center" valign="top">
-      <h3>🛠 Tools & Platforms</h3>
+      <h3>Tools</h3>
       <a href="https://skillicons.dev">
         <img src="https://skillicons.dev/icons?i=docker,git,linux,neovim&theme=dark" />
       </a>
-      <br/><br/>
     </td>
   </tr>
 </table>
 
 ---
-
-## 🧪 Current Experiments
-
-- **[VSH](https://github.com/notvcto/vsh):** Rewriting the CLI experience in Rust. (Current focus)
-- **[VWH](https://github.com/notvcto/vwh):** *Victor Was Here* — A cryptographic proof-of-presence system for red team engagements. (Secondary focus)
-- **Security Research:** Exploring vulnerability patterns in modern shell parsers
-
----
-
-## 📊 The Data
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=notvcto&theme=highcontrast&hide_border=true&background=1a1b27" width="98%" />
@@ -82,7 +80,5 @@
 ---
 
 <div align="center">
-  <p>
-    Use my tools? <a href="https://www.buymeacoffee.com/notvcto">Buy me a beer 🍻️</a><br/>
-  </p>
+  <p>Use my tools? <a href="https://www.buymeacoffee.com/notvcto">Buy me a beer 🍻️</a></p>
 </div>
