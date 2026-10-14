@@ -80,5 +80,5 @@ Runs on RISC-V and x86-64. Boots on real hardware.
 ---
 
 <div align="center">
-  <p>Use my tools? <a href="https://www.buymeacoffee.com/notvcto">Buy me a beer 🍻️</a></p>
+  <p>Liking my stuff? <a href="https://www.buymeacoffee.com/notvcto">Buy me a beer 🍻️</a></p>
 </div>
