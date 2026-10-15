@@ -17,7 +17,7 @@
 
 ## Current Work
 
-### Wolfram OS (https://github.com/notvcto/wolfram-os)
+### [Wolfram OS](https://github.com/notvcto/wolfram-os)
 
 Wolfram is a capability-based microkernel written in Rust. Processes start with empty handle tables and receive resources explicitly. The Uranium-238-v0.2.0 prerelease brings up a real userspace privilege boundary on RISC-V 64 and x86-64.
 
