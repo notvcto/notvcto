@@ -17,18 +17,21 @@
 
 ## Current Work
 
-### [Wolfram OS](https://github.com/notvcto/wolfram-os)
+### Wolfram OS (https://github.com/notvcto/wolfram-os)
 
-A capability-based microkernel written in Rust. No `fork()`. No ambient authority. Every process starts with an empty handle table and gets exactly what it's given.
+Wolfram is a capability-based microkernel written in Rust. Processes start with empty handle tables and receive resources explicitly. The Uranium-238-v0.2.0 prerelease brings up a real userspace privilege boundary on RISC-V 64 and x86-64.
 
-Runs on RISC-V and x86-64. Boots on real hardware.
+It boots in QEMU on both architectures. A physical x86-64 boot has also passed the kernel checks and userspace syscall roundtrip. The physical allocator currently manages up to 4 GiB of RAM.
 
-| What's in | What's next |
-| :--- | :--- |
-| Buddy allocator + VMO subsystem | Async IPC channels |
-| Sv39 + PML4 paging (dual-arch) | FastCall thread donation |
-| Job → Process → Thread hierarchy | musl libc port |
-| Assembly context switching | Ferrum userspace foundation |
+| Area | Working now | Still to build |
+|:---|:---|:---|
+| Memory | Buddy allocator, VMO-backed pages, and Sv39 / PML4 address spaces on both architectures | Remove the 4-GiB RAM ceiling and manage all installed system memory; expose VMO operations through syscalls |
+| Tasks and authority | Hierarchical jobs, process and thread containers, capability handles, and zero ambient authority | Capability and handle syscalls, scheduled task creation, and complete exit cleanup |
+| IPC | Kernel channel and FastCall primitives, including capability transfer | Userspace channel syscalls, blocking receive, and FastCall integration |
+| Userspace boundary | U-mode / Ring 3 entry, returning bootstrap syscalls, checked user copies, and tested supervisor isolation, RX-write protection, and NX execution | ELF loading, `init`, and a usable userspace runtime |
+| Shell and tools | — | An interactive shell and fer, the system CLI for packages and services, drivers, capabilities, memory, IPC, and jobs |
+
+`fer` begins as a userspace command skeleton that communicates with `init` and system services over channels. The roadmap builds it into Wolfram’s management interface as those services come online.
 
 ---
 
