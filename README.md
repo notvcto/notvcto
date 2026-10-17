@@ -32,6 +32,7 @@ QEMU smoke tests pass on both architectures. The original v0.2.4 implementation 
 | Shell and tools | — | Initramfs bootstrap, interactive shell, and fer, the userspace CLI for system services |
 
 M1 still runs one resident task on one active CPU, and exit halts the kernel. fer begins as a userspace command skeleton that communicates with init and system services over channels. The roadmap builds it into Ferber’s management interface as those services come online.
+
 ---
 
 ## Also shipping
