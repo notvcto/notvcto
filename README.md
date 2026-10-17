@@ -17,22 +17,21 @@
 
 ## Current Work
 
-### [Wolfram OS](https://github.com/notvcto/wolfram-os)
+### [Ferber](https://github.com/notvcto/ferber)
 
-Wolfram is a capability-based microkernel written in Rust. Processes start with empty handle tables and receive resources explicitly. The Uranium-238-v0.2.0 prerelease brings up a real userspace privilege boundary on RISC-V 64 and x86-64.
+Ferber is a capability-based microkernel written in Rust. Processes start with empty handle tables and receive resources explicitly. Uranium-238-v0.2.4 brings nonblocking channel syscalls, capability mutation, and full usable-RAM discovery to RISC-V 64 and x86-64.
 
-It boots in QEMU on both architectures. A physical x86-64 boot has also passed the kernel checks and userspace syscall roundtrip. The physical allocator currently manages up to 4 GiB of RAM.
+QEMU smoke tests pass on both architectures. The original v0.2.4 implementation also passed kernel checks and userspace syscall probes on physical x86-64 hardware with 32 GiB installed; firmware reported 31.46 GiB managed across 23 extents. The Ferber re-release changes the project branding and artifact names.
 
 | Area | Working now | Still to build |
 |:---|:---|:---|
-| Memory | Buddy allocator, VMO-backed pages, and Sv39 / PML4 address spaces on both architectures | Remove the 4-GiB RAM ceiling and manage all installed system memory; expose VMO operations through syscalls |
-| Tasks and authority | Hierarchical jobs, process and thread containers, capability handles, and zero ambient authority | Capability and handle syscalls, scheduled task creation, and complete exit cleanup |
-| IPC | Kernel channel and FastCall primitives, including capability transfer | Userspace channel syscalls, blocking receive, and FastCall integration |
-| Userspace boundary | U-mode / Ring 3 entry, returning bootstrap syscalls, checked user copies, and tested supervisor isolation, RX-write protection, and NX execution | ELF loading, `init`, and a usable userspace runtime |
-| Shell and tools | — | An interactive shell and fer, the system CLI for packages and services, drivers, capabilities, memory, IPC, and jobs |
+| Memory | Usable firmware RAM discovery across extents, buddy allocator, VMO-backed pages, and Sv39 / PML4 address spaces | Reclaim UEFI boot-services memory; define allocator safety before enabling interrupt-context allocation |
+| Tasks and authority | Hierarchical jobs, process and thread containers, empty process handle tables, handle close/duplication, capability inspection, attenuation, and revocation | Process/thread creation syscalls, scheduled yield, and complete exit cleanup |
+| IPC | Nonblocking channel create/send/receive syscalls with bounded queues and transactional capability transfer; kernel FastCall primitive | Blocking receive, FastCall syscall integration, and transfer policy for graph-owning capabilities |
+| Userspace boundary | U-mode / Ring 3 entry and return, checked user copies, and supervisor-isolation, RX-write, and NX-execution probes | VMO syscalls, ELF loading, init, and a usable userspace runtime |
+| Shell and tools | — | Initramfs bootstrap, interactive shell, and fer, the userspace CLI for system services |
 
-`fer` begins as a userspace command skeleton that communicates with `init` and system services over channels. The roadmap builds it into Wolfram’s management interface as those services come online.
-
+M1 still runs one resident task on one active CPU, and exit halts the kernel. fer begins as a userspace command skeleton that communicates with init and system services over channels. The roadmap builds it into Ferber’s management interface as those services come online.
 ---
 
 ## Also shipping
