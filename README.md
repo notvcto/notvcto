@@ -74,14 +74,6 @@ M1 still runs one resident task on one active CPU, and exit halts the kernel. fe
   </tr>
 </table>
 
----
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=notvcto&theme=highcontrast&hide_border=true&background=1a1b27" width="98%" />
-</div>
-
----
-
 <div align="center">
   <p>Liking my stuff? <a href="https://www.buymeacoffee.com/notvcto">Buy me a beer 🍻️</a></p>
 </div>
