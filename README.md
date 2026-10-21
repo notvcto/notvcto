@@ -43,7 +43,7 @@ M1 still runs one resident task on one active CPU, and exit halts the kernel. fe
 
 ## Stack
 
-<table border="0">
+<table border="0" align="center">
   <tr>
     <td width="50%" align="center" valign="top">
       <h3>Languages</h3>
